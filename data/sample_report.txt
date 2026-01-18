@@ -1,0 +1,14 @@
+Le logiciel malveillant communique avec le serveur C2 à l'adresse 185.203.116.45.
+Un autre domaine associé est malicious-update.com.
+
+SHA256 hash observed: a3f5c1e9b7c4d2f8e9b1a6d4c7e8f9a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5.
+MD5 sample: 44d88612fea8a8f36de82e1278abb02f.
+
+SHA256 hash observed: a3f5c1e9b7c4d2f8e9b1a6d4c7e8f9a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7.
+SHA1 hash example: 3b5d5c3712955042212316173ccf37be8003e4f1.
+MD5 sample: 44d88612fea8a8f36de82e1278abb02f.
+
+Detected malicious URL: http://malicious.example.com/path
+Refer to the vulnerability CVE-2023-12345 for patch information.
+Another URL: https://secure-site.org/login
+Another CVE reference: CVE-2022-45678
