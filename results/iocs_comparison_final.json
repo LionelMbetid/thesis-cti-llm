@@ -1,0 +1,63 @@
+{
+    "regex_counts": {
+        "ipv4": 1,
+        "domain": 3,
+        "md5": 1,
+        "sha1": 1,
+        "sha256": 1,
+        "url": 2,
+        "cve": 2
+    },
+    "ner_counts": {
+        "ORG": 3,
+        "PRODUCT": 1,
+        "CARDINAL": 2,
+        "GPE": 1
+    },
+    "bert_counts": {},
+    "unique_regex": {
+        "ipv4": [
+            "185.203.116.45"
+        ],
+        "domain": [
+            "secure-site.org",
+            "malicious.example.com",
+            "malicious-update.com"
+        ],
+        "md5": [
+            "44d88612fea8a8f36de82e1278abb02f"
+        ],
+        "sha1": [
+            "3b5d5c3712955042212316173ccf37be8003e4f1"
+        ],
+        "sha256": [
+            "a3f5c1e9b7c4d2f8e9b1a6d4c7e8f9a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"
+        ],
+        "url": [
+            "http://malicious.example.com/path",
+            "https://secure-site.org/login"
+        ],
+        "cve": [
+            "CVE-2023-12345",
+            "CVE-2022-45678"
+        ]
+    },
+    "unique_ner": {
+        "ORG": [
+            "Un",
+            "CVE-2022",
+            "serveur"
+        ],
+        "PRODUCT": [
+            "SHA256"
+        ],
+        "CARDINAL": [
+            "44d88612fea8a8f36de82e1278abb02f",
+            "3b5d5c3712955042212316173ccf37be8003e4f1"
+        ],
+        "GPE": [
+            "CVE-2023"
+        ]
+    },
+    "unique_bert": {}
+}

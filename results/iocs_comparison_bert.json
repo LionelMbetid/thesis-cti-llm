@@ -1,0 +1,46 @@
+{
+    "regex_counts": {
+        "ipv4": 1,
+        "domain": 1,
+        "md5": 1,
+        "sha1": 1,
+        "sha256": 1
+    },
+    "ner_counts": {
+        "ORG": 2,
+        "PRODUCT": 1,
+        "CARDINAL": 2
+    },
+    "bert_counts": {},
+    "unique_regex": {
+        "ipv4": [
+            "185.203.116.45"
+        ],
+        "domain": [
+            "malicious-update.com"
+        ],
+        "md5": [
+            "44d88612fea8a8f36de82e1278abb02f"
+        ],
+        "sha1": [
+            "3b5d5c3712955042212316173ccf37be8003e4f1"
+        ],
+        "sha256": [
+            "a3f5c1e9b7c4d2f8e9b1a6d4c7e8f9a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"
+        ]
+    },
+    "unique_ner": {
+        "ORG": [
+            "Un",
+            "serveur"
+        ],
+        "PRODUCT": [
+            "SHA256"
+        ],
+        "CARDINAL": [
+            "3b5d5c3712955042212316173ccf37be8003e4f1",
+            "44d88612fea8a8f36de82e1278abb02f"
+        ]
+    },
+    "unique_bert": {}
+}
